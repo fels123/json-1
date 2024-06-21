@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Practice</title>
+  </head>
+  <body>
+    <script>
+      let companies = `[
+        {
+          name: "Big Company",
+          employees: 500,
+          ceo: "Jane",
+          rating: 4,
+        },
+        {
+          name: "Small Company",
+          employees: 200,
+          ceo: null,
+          rating: 4.5,
+        },
+      ];`;
+      console.log(JSON.parse(companies));
+    </script>
+  </body>
+</html>
